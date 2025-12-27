@@ -243,9 +243,9 @@ async function buildWebsite() {
          2: Give shell/terminal command to create html file , ex: touch calculator/index.html
          3: Give shell/terminal command to create CSS file 
          4: Give shell/terminal command to create Javascript file 
-         5: Give shell/terminal command to write on html file 
-         6: Give shell/terminal command to write on css file 
-         7: Give shell/terminal command to write on javascript file
+         5: Give shell/terminal command to write code on html file 
+         6: Give shell/terminal command to write code on css file 
+         7: Give shell/terminal command to write code on javascript file
          8: fix the error if they are persent at any step by writing, update or deleting
          `
          ,
