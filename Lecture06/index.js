@@ -247,7 +247,42 @@ async function buildWebsite() {
          6: Give shell/terminal command to write code on css file 
          7: Give shell/terminal command to write code on javascript file
          8: fix the error if they are persent at any step by writing, update or deleting
-         `
+
+            For Windows, write multi-line HTML like this:
+
+                echo ^<!DOCTYPE html^> > calculator\\index.html
+                echo ^<html^> >> calculator\\index.html
+                echo ^<head^> >> calculator\\index.html
+                echo   ^<title^>Calculator^</title^> >> calculator\\index.html
+                echo   ^<link rel="stylesheet" href="style.css"^> >> calculator\\index.html
+                echo ^</head^> >> calculator\\index.html
+                echo ^<body^> >> calculator\\index.html
+                echo   ^<div id="calculator"^>^</div^> >> calculator\\index.html
+                echo   ^<script src="script.js"^>^</script^> >> calculator\\index.html
+                echo ^</body^> >> calculator\\index.html
+                echo ^</html^> >> calculator\\index.html
+                
+
+            For Mac/Linux, write multi-line HTML like this:
+
+            cat > calculator/index.html << 'EOF'
+            <!DOCTYPE html>
+            <html>
+            <head>
+            <title>Calculator</title>
+            <link rel="stylesheet" href="style.css">
+            </head>
+            <body>
+            <div id="calculator"></div>
+            <script src="script.js"></script>
+            </body>
+            </html>
+            EOF
+
+
+
+    AI agent, code Review kar de
+    `
          ,
 
          tools: [
