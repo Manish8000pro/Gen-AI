@@ -38,7 +38,7 @@ import { closeConnections } from "./2_config.js";
 async function processQuery(query) {
   console.log("\n═══════════════════════════════════════════");
 
-  // ── Step 1: Entity Resolution ──
+  // ── Step 1: Entity Resolution ──--
   // Extract entities from query → resolve each in Neo4j
   // After this, we KNOW what "Nolan", "DiCaprio", "Action" etc. are
   console.log("\n🔍 ENTITY RESOLUTION");
