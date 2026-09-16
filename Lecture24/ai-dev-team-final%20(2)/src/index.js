@@ -265,7 +265,7 @@ async function main() {
 
     if (!finalState.clarifiedSpec && !finalState.blueprint?.entities?.length) {
       console.log("\n  ⚠️ No output generated.");
-    }
+    } 
 
     console.log("\n  ✅ Done! Check the sandbox for your generated project.\n");
 
