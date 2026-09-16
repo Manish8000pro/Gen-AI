@@ -243,7 +243,7 @@ async function main() {
           const icon = t.canParallelize ? "∥" : "→";
           console.log(`    ${icon} ${t.taskId}: ${t.title}`);
           t.filesToCreate?.forEach(f => console.log(`      📄 ${f}`));
-        });
+        }); 
       }
       console.log("═".repeat(60));
     }
