@@ -35,7 +35,7 @@ struct Model {
 };
 
 // ─── Read CSV file ────────────────────────────────────────
-std::vector<Student> loadCSV(const std::string& filename) {
+std::vector<Student> loadCSV(const std::string& filename) { 
     std::vector<Student> data;
     std::ifstream file(filename);
 
