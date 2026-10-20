@@ -139,7 +139,7 @@ void train(Model& m, const std::vector<Student>& data,
            const NormStats& stats, double lr, int epochs) {
 
     std::cout << "\n─── Training ───\n";
-
+ 
     for (int epoch = 0; epoch < epochs; epoch++) {
 
         double totalLoss = 0.0;
